@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Smooch+Sans:wght@100..900&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #AE8FD9;
+}
+
+header {
+  background-color: #8A4BA6;
+  color: white;
+  padding: 2px 5px 2px 5px;
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  font-size: 300%;
+  color: #F2CBBD;
+}
+section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Cats {
+    margin: 10px;
+    padding: 5px;
+    background-color: #F2B138;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #8A4BA6;
+}

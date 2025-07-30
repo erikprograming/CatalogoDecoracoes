@@ -47,7 +47,7 @@ fetch('https://api.github.com/repos/erikprograming/CatalogoDecoracoes/contents/I
             document.getElementById('galeria').appendChild(div);
 
             i++;
-            setTimeout(carregarProxima, 100); // delay de 200ms entre cada imagem
+            setTimeout(carregarProxima, 225); // delay de 200ms entre cada imagem
         }
 
         carregarProxima();
